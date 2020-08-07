@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.17)  4 AUG 2020 00:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.17)  7 AUG 2020 01:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -704,7 +704,7 @@ Package pdftex.def Info: Imagenes/05/hov_dom2_edit.jpg  used on input line 6.
 File: Imagenes/05/hd_mesh_50.png Graphic file (type png)
 <use Imagenes/05/hd_mesh_50.png>
 Package pdftex.def Info: Imagenes/05/hd_mesh_50.png  used on input line 24.
-(pdftex.def)             Requested size: 142.24985pt x 142.26378pt.
+(pdftex.def)             Requested size: 144.25734pt x 142.26378pt.
 <Imagenes/05/bol_control_point.pdf, id=71, page=1, 614.295pt x 794.97pt>
 File: Imagenes/05/bol_control_point.pdf Graphic file (type pdf)
 <use Imagenes/05/bol_control_point.pdf, page 1>
@@ -716,97 +716,95 @@ File: Imagenes/06/hov/9u.pdf Graphic file (type pdf)
 <use Imagenes/06/hov/9u.pdf, page 37>
 Package pdftex.def Info: Imagenes/06/hov/9u.pdf , page37 used on input line 33.
 
-(pdftex.def)             Requested size: 171.56078pt x 299.71317pt.
+(pdftex.def)             Requested size: 156.68872pt x 193.36191pt.
 <Imagenes/06/hov/9v.pdf, id=75, page=37, 614.295pt x 794.97pt>
 File: Imagenes/06/hov/9v.pdf Graphic file (type pdf)
 <use Imagenes/06/hov/9v.pdf, page 37>
 Package pdftex.def Info: Imagenes/06/hov/9v.pdf , page37 used on input line 34.
 
-(pdftex.def)             Requested size: 155.61874pt x 299.71317pt.
-<Imagenes/06/hov/9V.pdf, id=77, page=37, 614.295pt x 794.97pt>
-File: Imagenes/06/hov/9V.pdf Graphic file (type pdf)
-<use Imagenes/06/hov/9V.pdf, page 37>
-Package pdftex.def Info: Imagenes/06/hov/9V.pdf , page37 used on input line 35.
-
-(pdftex.def)             Requested size: 155.61874pt x 299.71317pt.
-
-[4 <./Imagenes/05/hov_dom1_edit.jpg> <./Imagenes/05/hov_dom2_edit.jpg> <./Image
-nes/05/hd_mesh_50.png> <./Imagenes/05/bol_control_point.pdf>]
-<Imagenes/06/hov/ts_v.pdf, id=92, 794.97pt x 614.295pt>
+(pdftex.def)             Requested size: 128.0313pt x 193.36191pt.
+<Imagenes/06/hov/9vv.pdf, id=77, page=37, 614.295pt x 794.97pt>
+File: Imagenes/06/hov/9vv.pdf Graphic file (type pdf)
+<use Imagenes/06/hov/9vv.pdf, page 37>
+Package pdftex.def Info: Imagenes/06/hov/9vv.pdf , page37 used on input line 35
+.
+(pdftex.def)             Requested size: 161.74591pt x 193.36191pt.
+<Imagenes/06/hov/ts_v.pdf, id=79, 794.97pt x 614.295pt>
 File: Imagenes/06/hov/ts_v.pdf Graphic file (type pdf)
 <use Imagenes/06/hov/ts_v.pdf>
 Package pdftex.def Info: Imagenes/06/hov/ts_v.pdf  used on input line 43.
-(pdftex.def)             Requested size: 241.70607pt x 90.86852pt.
-<Imagenes/06/hov_da/ts_v.pdf, id=94, 794.97pt x 614.295pt>
+(pdftex.def)             Requested size: 241.70607pt x 83.728pt.
+<Imagenes/06/hov_da/ts_v.pdf, id=81, 794.97pt x 614.295pt>
 File: Imagenes/06/hov_da/ts_v.pdf Graphic file (type pdf)
 <use Imagenes/06/hov_da/ts_v.pdf>
 Package pdftex.def Info: Imagenes/06/hov_da/ts_v.pdf  used on input line 44.
-(pdftex.def)             Requested size: 241.70607pt x 90.86852pt.
-<Imagenes/06/hov/ts_o.pdf, id=96, 794.97pt x 614.295pt>
+(pdftex.def)             Requested size: 241.70607pt x 83.728pt.
+<Imagenes/06/hov/ts_o.pdf, id=83, 794.97pt x 614.295pt>
 File: Imagenes/06/hov/ts_o.pdf Graphic file (type pdf)
 <use Imagenes/06/hov/ts_o.pdf>
 Package pdftex.def Info: Imagenes/06/hov/ts_o.pdf  used on input line 46.
-(pdftex.def)             Requested size: 241.70607pt x 99.44336pt.
-<Imagenes/06/hov_da/ts_o.pdf, id=98, 794.97pt x 614.295pt>
+(pdftex.def)             Requested size: 241.70607pt x 106.01657pt.
+<Imagenes/06/hov_da/ts_o.pdf, id=85, 794.97pt x 614.295pt>
 File: Imagenes/06/hov_da/ts_o.pdf Graphic file (type pdf)
 <use Imagenes/06/hov_da/ts_o.pdf>
 Package pdftex.def Info: Imagenes/06/hov_da/ts_o.pdf  used on input line 47.
-(pdftex.def)             Requested size: 241.70607pt x 99.44336pt.
-<Imagenes/06/bol/speedup.pdf, id=100, page=37, 794.97pt x 614.295pt>
+(pdftex.def)             Requested size: 241.70607pt x 106.01657pt.
+
+[4 <./Imagenes/05/hov_dom1_edit.jpg> <./Imagenes/05/hov_dom2_edit.jpg> <./Image
+nes/05/hd_mesh_50.png> <./Imagenes/05/bol_control_point.pdf> <./Imagenes/06/hov
+/9u.pdf> <./Imagenes/06/hov/9v.pdf> <./Imagenes/06/hov/9vv.pdf>]
+<Imagenes/06/bol/speedup.pdf, id=111, page=37, 794.97pt x 614.295pt>
 File: Imagenes/06/bol/speedup.pdf Graphic file (type pdf)
 <use Imagenes/06/bol/speedup.pdf, page 37>
 Package pdftex.def Info: Imagenes/06/bol/speedup.pdf , page37 used on input lin
 e 55.
 (pdftex.def)             Requested size: 435.06798pt x 97.8678pt.
-<Imagenes/06/bol/cross_height.pdf, id=102, 1032.71759pt x 1003.75pt>
+<Imagenes/06/bol/cross_height.pdf, id=113, 1032.71759pt x 1003.75pt>
 File: Imagenes/06/bol/cross_height.pdf Graphic file (type pdf)
 <use Imagenes/06/bol/cross_height.pdf>
 Package pdftex.def Info: Imagenes/06/bol/cross_height.pdf  used on input line 5
 6.
 (pdftex.def)             Requested size: 435.06798pt x 60.1098pt.
- [5 <./Imagenes/06/hov/9u.pdf> <./Imagenes/06/hov/9v.pdf> <./Imagenes/06/hov/9v
-.pdf> <./Imagenes/06/hov/ts_v.pdf, page is rotated 270 degrees> <./Imagenes/06/
-hov_da/ts_v.pdf, page is rotated 270 degrees> <./Imagenes/06/hov/ts_o.pdf, page
- is rotated 270 degrees> <./Imagenes/06/hov_da/ts_o.pdf, page is rotated 270 de
-grees>]
-<Imagenes/06/bol/ts_interpol_compare.pdf, id=131, page=4, 794.97pt x 614.295pt>
-
+<Imagenes/06/bol/ts_interpol_compare.pdf, id=115, 794.97pt x 614.295pt>
 File: Imagenes/06/bol/ts_interpol_compare.pdf Graphic file (type pdf)
-<use Imagenes/06/bol/ts_interpol_compare.pdf, page 4>
-Package pdftex.def Info: Imagenes/06/bol/ts_interpol_compare.pdf , page4 used o
-n input line 63.
-(pdftex.def)             Requested size: 241.70607pt x 91.79669pt.
-<Imagenes/06/bol_da/ts_interpol_compare.pdf, id=133, page=4, 794.97pt x 614.295
-pt>
+<use Imagenes/06/bol/ts_interpol_compare.pdf>
+Package pdftex.def Info: Imagenes/06/bol/ts_interpol_compare.pdf  used on input
+ line 63.
+(pdftex.def)             Requested size: 241.70607pt x 85.5702pt.
+<Imagenes/06/bol_da/ts_interpol_compare.pdf, id=117, 794.97pt x 614.295pt>
 File: Imagenes/06/bol_da/ts_interpol_compare.pdf Graphic file (type pdf)
-<use Imagenes/06/bol_da/ts_interpol_compare.pdf, page 4>
-Package pdftex.def Info: Imagenes/06/bol_da/ts_interpol_compare.pdf , page4 use
-d on input line 64.
-(pdftex.def)             Requested size: 241.70607pt x 91.79669pt.
-<Imagenes/06/bol/ts_interpol_compare_o.pdf, id=135, page=4, 794.97pt x 614.295p
-t>
+<use Imagenes/06/bol_da/ts_interpol_compare.pdf>
+Package pdftex.def Info: Imagenes/06/bol_da/ts_interpol_compare.pdf  used on in
+put line 64.
+(pdftex.def)             Requested size: 241.70607pt x 85.5702pt.
+<Imagenes/06/bol/ts_interpol_compare_o.pdf, id=119, 794.97pt x 614.295pt>
 File: Imagenes/06/bol/ts_interpol_compare_o.pdf Graphic file (type pdf)
-<use Imagenes/06/bol/ts_interpol_compare_o.pdf, page 4>
-Package pdftex.def Info: Imagenes/06/bol/ts_interpol_compare_o.pdf , page4 used
- on input line 66.
-(pdftex.def)             Requested size: 241.70607pt x 97.56529pt.
-<Imagenes/06/bol_da/ts_interpol_compare_o.pdf, id=137, page=4, 794.97pt x 614.2
-95pt>
+<use Imagenes/06/bol/ts_interpol_compare_o.pdf>
+Package pdftex.def Info: Imagenes/06/bol/ts_interpol_compare_o.pdf  used on inp
+ut line 66.
+(pdftex.def)             Requested size: 241.70607pt x 106.01657pt.
+<Imagenes/06/bol_da/ts_interpol_compare_o.pdf, id=121, 794.97pt x 614.295pt>
 File: Imagenes/06/bol_da/ts_interpol_compare_o.pdf Graphic file (type pdf)
-<use Imagenes/06/bol_da/ts_interpol_compare_o.pdf, page 4>
-Package pdftex.def Info: Imagenes/06/bol_da/ts_interpol_compare_o.pdf , page4 u
-sed on input line 67.
-(pdftex.def)             Requested size: 241.70607pt x 97.56529pt.
-)
-(./pcf_conf_paper.bbl [6 <./Imagenes/06/bol/speedup.pdf, page is rotated 270 de
-grees> <./Imagenes/06/bol/cross_height.pdf, page is rotated 90 degrees> <./Imag
-enes/06/bol/ts_interpol_compare.pdf, page is rotated 270 degrees> <./Imagenes/0
-6/bol_da/ts_interpol_compare.pdf, page is rotated 270 degrees> <./Imagenes/06/b
-ol/ts_interpol_compare_o.pdf, page is rotated 270 degrees> <./Imagenes/06/bol_d
-a/ts_interpol_compare_o.pdf, page is rotated 270 degrees>] [7] [8] [9] [10])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+<use Imagenes/06/bol_da/ts_interpol_compare_o.pdf>
+Package pdftex.def Info: Imagenes/06/bol_da/ts_interpol_compare_o.pdf  used on 
+input line 67.
+(pdftex.def)             Requested size: 241.70607pt x 106.01657pt.
 
-[11]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [5 <./Imagenes/06/hov/ts_v.pdf, page is rotated 270 degrees> <./Imagenes/06/h
+ov_da/ts_v.pdf, page is rotated 270 degrees> <./Imagenes/06/hov/ts_o.pdf, page 
+is rotated 270 degrees> <./Imagenes/06/hov_da/ts_o.pdf, page is rotated 270 deg
+rees> <./Imagenes/06/bol/speedup.pdf, page is rotated 270 degrees> <./Imagenes/
+06/bol/cross_height.pdf, page is rotated 90 degrees> <./Imagenes/06/bol/ts_inte
+rpol_compare.pdf, page is rotated 270 degrees> <./Imagenes/06/bol_da/ts_interpo
+l_compare.pdf, page is rotated 270 degrees> <./Imagenes/06/bol/ts_interpol_comp
+are_o.pdf, page is rotated 270 degrees> <./Imagenes/06/bol_da/ts_interpol_compa
+re_o.pdf, page is rotated 270 degrees>] (./pcf_conf_paper.bbl [6] [7] [8]
+[9])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+ [10]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
  (./pcf_conf_paper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
@@ -816,23 +814,23 @@ Package rerunfilecheck Info: File `pcf_conf_paper.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 10677 strings out of 492167
- 162832 string characters out of 6131558
+ 10676 strings out of 492167
+ 162796 string characters out of 6131558
  276459 words of memory out of 5000000
  14700 multiletter control sequences out of 15000+600000
  9701 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,10n,79p,865b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,10n,79p,865b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></us
 r/share/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on pcf_conf_paper.pdf (11 pages, 11167376 bytes).
+Output written on pcf_conf_paper.pdf (10 pages, 11111837 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 110 named destinations out of 1000 (max. 500000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 109 named destinations out of 1000 (max. 500000)
  252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
