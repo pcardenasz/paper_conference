@@ -1,10 +1,9 @@
-\section*{Figuras (temporal)}
+\section*{Figures}
 \begin{figure}[H]
 	\centering
-	
-	\includegraphics[height=5cm,trim={5mm 3mm 3mm 3mm},clip,frame]{Imagenes/05/hov_dom1_edit.jpg}
-	\includegraphics[height=5cm,trim={5mm 3mm 3mm 3mm},clip,frame]{Imagenes/05/hov_dom2_edit.jpg}%
-	
+	\includegraphics[height=4cm,trim={5mm 3mm 3mm 3mm},clip,frame]{Imagenes/05/hov_dom1_edit.jpg}
+	\includegraphics[height=4cm,trim={5mm 3mm 3mm 3mm},clip,frame]{Imagenes/05/hov_dom2_edit.jpg}
+	\includegraphics[height=4cm,page=55,trim={43mm 87mm 20mm 4.5cm},clip]{Imagenes/06/hov/eta1_V}%
 	\caption{Simulation domains for H1 and H2. (a) Domains d1-d4. (b) d5-d7.}
 	\label{fig:05_dom_hov}
 \end{figure}
@@ -21,18 +20,18 @@
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[height=5cm,trim={0cm 5mm 0cm 0cm},clip]{Imagenes/05/hd_mesh_50}
-	\includegraphics[height=5cm,page=1,trim={3.4cm 9.3cm 1cm 4cm},clip]{Imagenes/05/bol_control_point.pdf}%
-	
+	\includegraphics[height=4cm,trim={0cm 5mm 0cm 0cm},clip]{Imagenes/05/hd_mesh_50}%
+	\includegraphics[height=4cm,page=1,trim={3.4cm 9.3cm 1cm 4cm},clip]{Imagenes/05/bol_control_point.pdf}%
+	\includegraphics[height=4cm,page=109,trim={37mm 30mm 45mm 22mm},clip]{Imagenes/06/bol/eta1}%
 	\caption{(a) Detail the steep slope on a 1:1 scale. (b) Control points locations for B1, B2 and B3. }
 	\label{fig:05_mesh_bol}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[height=0.4\linewidth,page=37,trim={10mm 15mm 20mm 35mm},clip]{Imagenes/06/hov/9u}%
-		\includegraphics[height=0.4\linewidth,page=37,trim={44mm 15mm 20mm 35mm},clip]{Imagenes/06/hov/9v}%
-		\includegraphics[height=0.4\linewidth,page=37,trim={44mm 15mm -20mm 35mm},clip]{Imagenes/06/hov/9vv}%
+		\includegraphics[height=5.5cm,page=37,trim={10mm 15mm 20mm 35mm},clip]{Imagenes/06/hov/9u}%
+		\includegraphics[height=5.5cm,page=37,trim={44mm 15mm 20mm 35mm},clip]{Imagenes/06/hov/9v}%
+		\includegraphics[height=5.5cm,page=37,trim={44mm 15mm -20mm 35mm},clip]{Imagenes/06/hov/9vv}%
 
 	\caption{Comparación de la simulación (línea continua) con la simulación de Peña et. al. en el 2013 (línea punteada) y valores medidos para (a) componente $u$ de la velocidad del viento, (b) componente $v$ y (c) magnitud de la velocidad del viento. Los datos corresponden a promedios temporales entre las 12:00 y 15:00, y han sido rotados de tal forma que su dirección sea 0$^\circ$ a los 10m.}
 	\label{fig:06_hov_pena}
@@ -52,8 +51,8 @@
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\linewidth,trim={12mm 84mm 10mm 74mm},page=37,clip]{Imagenes/06/bol/speedup}\\%
-	\includegraphics[width=0.9\linewidth,trim={-11mm 205mm 115mm 112mm},clip]{Imagenes/06/bol/cross_height}\\%
+	\includegraphics[width=0.9\linewidth,trim={12mm 84mm -5mm 74mm},page=37,clip]{Imagenes/06/bol/speedup}\\%
+	\includegraphics[width=0.9\linewidth,trim={-11mm 205mm 100mm 112mm},clip]{Imagenes/06/bol/cross_height}\\%
 	\caption{Speedup en los primeros 3 niveles del modelo ($1.1$ [m] azul; $3.4$ [m] verde; $5.6$ [m] amarillo) para la sección de corte a 240$^\circ$ en Bolund. Se muestran los resultados para las 15:00 horas.}
 	\label{fig:06_bol_speedup}
 \end{figure}
@@ -71,32 +70,15 @@
 
 
 \begin{table}[h!]
-	\caption{Comparación de métricas para el caso II Bolund.}
+	\caption{Comparación de métricas para el caso II Bolund. Velocidad en (m s-1).}
 	\label{tab:06_bol_mae_rmse}
 	\centering%\footnotesize
-	\begin{tabular}{lcc}
+	\begin{tabular}{lcccc}
 		\toprule
-		& Sin DA & Con DA \\
+		& Hov & Hov w/DA & Bol & Bol w/DA\\
 		\midrule
-		MAE & 2.6724 m/s & 4.3562 m/s \\
-		RMSE & 2.9538 m/s& 4.90071 m/s\\
-		$\Delta{RMSE}$&  -- & $-65.91\%$ \\
-		$\Delta{MAE}$ &  -- & $-63.01\%$ \\
-		\bottomrule
-	\end{tabular}
-\end{table}
-\begin{table}[H]
-	\caption{Comparación de métricas para el caso I Høvsøre.}
-	\label{tab:06_hov_mae_rmse}
-	\centering%\footnotesize
-	\begin{tabular}{lcc}
-		\toprule
-		& Sin DA & Con DA \\
-		\midrule
-		MAE & 2.41091 m/s & 2.16742 m/s \\
-		RMSE & 2.80142 m/s& 2.55778 m/s\\
-		$\Delta{RMSE}$& --  & $8.70\%$  \\
-		$\Delta{MAE}$ & -- & $10.47\%$  \\
+		MAE & 2.67 & 4.36 & 2.41& 2.17\\
+		RMSE& 2.95& 4.90 & 2.80& 2.56\\
 		\bottomrule
 	\end{tabular}
 \end{table}

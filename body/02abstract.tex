@@ -1,45 +1,20 @@
 \bce
 %\large{\textbf{Descripción de un Sistema Operacional para Predicción de Viento en Terreno Real a Alta Resolución Mediante Simulación Multiescala, LES y Asimilación de Datos 4D. Parte I: Terreno Plano}}\\
-\large{\textbf{Influence of 4D Data Assimilation inside the PBL for High Resolution Multiscale Simulations using WRF-LES in Real Complex Terrain}}\\
+\large{\textbf{High resolution wind resource assessment over complex terrain: influence of 4D data assimilation in the WRF-LES wind model}}\\
 %\large{\textit{Description of a Operational Wind Prediction System in High Resolution Real Terrain Through Multiscale Simulation, LES and 4D Data Assimilation, Part I: Flat Terrain}}
 %\large{\textit{Influence of 4D Data Assimilation inside the PBL for High Resolution Multiscale Real Simulations using WRF-LES  Part I: Flat Terrain}}
 \ece
 
-Pablo Cárdenas$^1$\\
-Alex Flores$^{2*}$
+Pablo Cárdenas$^1,$ Alex Flores$^{1*}$, Joaquín Mura$^{1}$
 
 \bigskip
-$^1$Universidad Técnica Federico Santa María. Departamento de Ing. Mecánica. Valparaíso, Chile.\\
-Email: \href{mailto:pablo.cardenasz@alumnos.usm.cl}{pablo.cardenasz@alumnos.usm.cl}\\
-$^2$Universidad Técnica Federico Santa María. Departamento de Ing. Mecánica. Valparaíso, Chile.\\
-Email: \href{mailto:alex.floresm@usm.cl}{alex.floresm@usm.cl}
-
-$^*$Corresponding Author
+$^1$Federico Santa María Technical University, Department of Mechanical Engineering, Valparaíso, Chile \\
+$^*$Corresponding author email: \href{mailto:alex.floresm@usm.cl}{alex.floresm@usm.cl}
 
 \bigskip
 
 \textbf{Abstract:}
-In order to develop a reliable tool to estimate wind behavior in localized areas, a novel methodology that includes fields measurements at surface level was tested for multi-scale atmospherics simulations.
-%
-Specifically, the WRF software was used to perform real simulations at very high resolutions, i.e. mesh sizes up to 3m, through nested domains and the incorporation of non-native databases for orography and land use category. 
-%
-In the finer domains, the PBL parameterization was turned off and a 1.5TKE LES turbulence model was used. 
-%
-Finally, measured data was incorporated in the innermost domain through a 4D data assimilation system to correct the numerical deviations every 10 minutes in the first 6 hours of simulation. 
-%
-Five experiments are presented in two separate scenarios: (I) Høvsøre (quasi-flat terrain with neutral stratification) in which the DA was accomplished through a single-point mast measurement located at the domain center and (II) Bolund (complex terrain with neutral stratification) where the DA was made from 8 masts distributed across the domain.
-%measurements of a meteorological mast
-%
-%This approach was validated by contrasting the obtained results from the flat terrain case with measurement campaigns data and with other data present in the literature. 
-Validation of this approach was made with the Høvsøre case by contrasting the obtained results with data from measurements campaigns and literature.
-%
-The obtained results shows that it is possible to obtain more accurate predictions
-that replicate the turbulent wind behavior at simulated scales and that, in addition,
-data assimilation improves the flat terrain prediction by 10\%. In complex terrain,
-the data assimilation fails to improve the solution due to the proximity of the
-measurements with the ground and the terrain induced forcing.\\
-\textbf{Keywords:} Multiscale Simulation, LES, Data Assimilation, High Resolution, Complex Terrain, WRF, Planetary Boundary Layer, Wind Resource Assessment.
-
-\bigskip
-Received xx de xx de 2019\\
-Accepted xx de xx de 2019 
+To develop a reliable tool for accurate evaluations of the wind behavior over both flat and complex terrain, a novel methodology that assimilates field measurements at surface level for multiscale wind simulations was implemented and tested in the Weather Research and Forecasting model (WRF-ARW). The proposed method was applied to perform high resolution simulations, i.e. mesh sizes up to 2 m, of real case studies with nested domains and the introduction of a variational data assimilation (DA) technique of field observations, from databases registered for specific experiments over heterogeneous topography. In the inner domains, the atmospheric boundary layer (ABL) parameterization was executed with a 1.5 TKE turbulence scheme for large-eddy simulation (LES), employed to obtain detailed realizations of the anisotropic turbulence of the surface layer. 
+Field data was introduced in the innermost domain through a 4D data assimilation system to correct the numerical deviations every 10 minutes in the first 6 hours of the simulation. Four experiments are presented, in two separate scenarios: (i) the Høvsøre case, at Denmark, to replicate a neutrally stratified wind flow over real flat terrain, in which the DA process was accomplished through a three layer single-point met-mast measurement located at the domain center and (ii) the Bolund case, at Denmark, to realize a neutrally stratified wind flow over steep complex terrain, where the DA was taken from 8 met-masts distributed in a neural network across the domain. 
+Validation of this approach was made for each case by contrasting the modelling results with field observations from campaign databases and related literature. The outcomes show that it is possible to obtain more accurate predictions of surface wind flow, replicating the nonlinear turbulent phenomena at finescale and that employing data assimilation reduces the wind estimations and predictions over real topography by 10\%. In presence of very steep terrain, the 4D assimilation technique needs further improvement due to the proximity of field measurements to the ground and strong terrain induced forcing, which impose a tough constraint on high resolution wind modelling.\\
+\textbf{Keywords:} Wind resource assessment; multiscale wind modelling; data assimilation; large-eddy simulation; complex terrain.
